@@ -9,7 +9,11 @@
 
 #home-links {
     text-decoration: none;
-    color: midnightblue;
+    color: lightgrey;
+}
+
+#home-links:hover {
+    color: dimgrey;
 }
 
 #welcome-box {
