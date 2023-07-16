@@ -9,10 +9,11 @@
 
 #home-links {
     text-decoration: none;
+    color: midnightblue;
 }
 
 #welcome-box {
-    background-image: url("welcome_image2.jpg");
+    background-image: url("images/welcome_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -72,4 +73,6 @@
     padding-bottom: 5%;
 }
 
-
+#carousel div {
+    border-radius: 10px;
+}
