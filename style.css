@@ -60,13 +60,15 @@
 }
 
 #contact-fb svg,
-#contact-insta svg {
-    height: 1.5em;
-    width: 1.5em;
+#contact-insta svg,
+#contact-tt svg {
+    height: 1.8em;
+    width: 1.8em;
 }
 
 #contact-fb,
-#contact-insta {
+#contact-insta,
+#contact-tt {
     display: inline;
     padding-top: 2%;
     text-decoration: none;
@@ -79,4 +81,13 @@
 
 #carousel div {
     border-radius: 10px;
+}
+
+.headshot:hover {
+    filter: brightness(50%);
+}
+
+#headshot1 {
+    height: 120%;
+    background-image: url("headshot.jpeg");
 }

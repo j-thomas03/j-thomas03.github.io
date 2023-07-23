@@ -25,6 +25,9 @@
         width: 10%;
 
     }
+    #main ul li {
+        font-style: italic;
+    }
 </style>
 
 <nav class="navbar navbar-expand" id="navbar">
@@ -47,10 +50,23 @@
 </nav>
 <div id="main">
     <div class="container">
-        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="margin-top: 2%; margin-bottom: 1%;" id="find-us">
-            <div id="address">
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="margin-top: 2%; margin-bottom: 1%;">
+            <div>
                 <h1 class="display-4 font-italic">Our Story</h1>
-                <p class="lead my-3">Paragraph here about the gym </p>
+                <p class="lead my-3">Diamonds Gym is situated on the High Street in the heart of Bedworth town centre, next door to the Civic Hall.  Established in January 2020, we are a family ran fitness facility packed full of the very best equipment in the industry.</p>
+                <p class="lead my-3">Inclusive to all, and irrespective if you are a full-fledged gym goer or a complete novice, the warm, friendly staff are here to make everyone feel welcomed and enhance the atmosphere it is renowned for.  Add to that our knowledge about training and nutrition, and you will have the ideal environment to succeed in reaching all your goals, whether that be :</p>
+                <ul class="lead my-3">
+                    <li>Weight Loss</li>
+                    <li>Gaining Muscle</li>
+                    <li>Improved Fitness</li>
+                    <li>Gaining Strength</li>
+                    <li>Body Transformation</li>
+                    <li>Toning Up</li>
+                    <li>Mental Wellness</li>
+                    <li>or All-Around Gym Fitness</li>
+                </ul>
+                <p class="lead my-3">We pride ourselves in not being just a gym - we're here to help you, and once you've trained here you won't want to train anywhere else.</p>
+                <p class="lead my-3" style="font-weight: bold;">At Diamonds Gym Fitness Is Forever!</p>
             </div>
         </div>
 
@@ -87,6 +103,80 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <div class="jumbotron p-3 p-md-5 text-black rounded bg-light" style="margin-top: 2%; margin-bottom: 1%;">
+            <div>
+                <h1 class="display-4 font-italic">Our Equipment</h1>
+                <p class="lead my-3">Diamonds Gym is equipped with the latest state of the art cardiovascular and strength training equipment including :</p>
+                <ul class="lead my-3">
+                    <li>Treadmills</li>
+                    <li>Rower</li>
+                    <li>Spin Bike</li>
+                    <li>Upright Bike</li>
+                    <li>Recumbent Bike</li>
+                    <li>Hand Bike</li>
+                    <li>Stairmaster</li>
+                    <li>Arc Cross Trainers</li>
+                    <li>Hatton Punchbag</li>
+                    <li>Jacobs Ladder</li>
+                    <li>and an extensive range of Plate Loaded and Selectorised Machines</li>
+                </ul>
+                <p class="lead my-3">From renown brands :</p>
+                <ul class="lead my-3">
+                    <li>Panatta</li>
+                    <li>Cybex</li>
+                    <li>Hammer Strength</li>
+                    <li>Nautilus</li>
+                    <li>Star Trac</li>
+                    <li>Primal Strength</li>
+                    <li>Technogym</li>
+                </ul>
+                <p class="lead my-3">We also have a Free-Weights area with :</p>
+                <ul class="lead my-3">
+                    <li>Dumbbells up to 60kg</li>
+                    <li>Two squat racks</li>
+                    <li>Kettlebells</li>
+                    <li>Hex Dumbbells</li>
+                    <li>and Barbells up to 45kg</li>
+                </ul>
+                <p class="lead my-3">In addition to this we also have :</p>
+                <ul class="lead my-3">
+                    <li>An Inbody composition machine to track your progress</li>
+                    <li>A Bag Room to home your boxing skills</li>
+                    <li>A posing room to see your gains</li>
+                    <li>and an in-house Sports Masseuse to ease all your aches and pains</li>
+                </ul>
+            </div>
+        </div>
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="margin-top: 2%; margin-bottom: 1%;">
+            <div>
+                <h1 class="display-4 font-italic">Meet the Staff</h1>
+                <div class="row">
+                    <div class="col" id="headshot1" onmouseover="toggleText(this.id)" onmouseout="toggleText(this.id)">
+                        <p id="headshot1-text" style="visibility: hidden; color: black;">Headshot<br> 1<br> of<br> a<br> person </p>
+                    </div>
+                    <div class="col">
+                        <img src="headshot.jpeg" width="20%" class="headshot">
+                    </div>
+                    <div class="col">
+                        <img src="headshot.jpeg" width="20%" class="headshot">
+                    </div>
+                    <div class="col">
+                        <img src="headshot.jpeg" width="20%" class="headshot">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="headshot.jpeg" class="headshot">
+                    </div>
+                    <div class="col">
+                        <img src="headshot.jpeg" class="headshot">
+                    </div>
+                    <div class="col">
+                        <img src="headshot.jpeg" class="headshot">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -115,9 +205,28 @@
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                 </svg>
             </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.tiktok.com/@diamondsgymbedworth">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                </svg>
+            </a></li>
         </ul>
     </footer>
 </div>
+
+<script>
+    function toggleText(id) {
+        var image = document.getElementById(id);
+        var elemText = document.getElementById(id+"-text");
+        if (elemText.style.visibility === "hidden") {
+            elemText.style.visibility = "visible";
+            image.style.filter = "brightness(50%)";
+        } else {
+            elemText.style.visibility = "hidden";
+            image.style.filter = "brightness(100%)";
+        }
+    }
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
