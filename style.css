@@ -9,6 +9,7 @@
 
 #home-links {
     text-decoration: none;
+    font-weight: bolder;
     color: lightgrey;
 }
 
@@ -79,6 +80,24 @@
     padding-bottom: 5%;
 }
 
+#social-links a {
+    color: white;
+}
+
+#social-links a:hover {
+    color: darkgrey;
+}
+
+#phone-contact,
+#email-contact {
+    color: white;
+}
+
+#phone-contact:hover,
+#email-contact:hover {
+    color: darkgrey;
+}
+
 #carousel div {
     border-radius: 10px;
 }
@@ -90,4 +109,73 @@
 #headshot1 {
     height: 120%;
     background-image: url("headshot.jpeg");
+}
+
+#find-us,
+#equipment {
+    background-color: slateblue;
+}
+
+#buy-memberships-button {
+    font-size: 30px;
+}
+
+.pricing-title {
+    text-decoration: underline;
+}
+
+.opening-times {
+    font-weight: bolder;
+}
+
+#memberships-main {
+    background-color: rgb(25, 28, 31);
+    color: white;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+#memberships-main table td {
+    color: white;
+}
+
+#buy-memberships-home-box {
+    background-color: slateblue;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+#sign-up-text {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    font-style: italic;
+}
+
+#join-button {
+    background-color: white;
+    color: slateblue;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 1.5%;
+}
+
+#contact-button,
+#buy-button {
+    background-color: slateblue;
+    color: white;
+    font-weight: bold;
+    border-color: darkgrey;
+}
+
+#contact-button:hover,
+#buy-button:hover {
+    background-color: lightgrey;
+
+}
+
+.home-column {
+    max-width: 30%;
 }
